@@ -1,0 +1,20 @@
+/* CSS in your LWC's CSS file */
+.chat-container {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.code-block {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: larger;
+}
+.copy-button {
+    padding: 1em;
+    float: right;
+}

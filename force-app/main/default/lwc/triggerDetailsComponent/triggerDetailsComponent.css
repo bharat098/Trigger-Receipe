@@ -1,0 +1,60 @@
+/* triggerDetailsComponent.css */
+
+/* Vertical Tabs */
+.vertical-tabs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    
+}
+
+.vertical-tabs lightning-button {
+    margin-bottom: 8px;
+    width: 100%;
+    text-align: left;
+    background-color: #fff;
+    border: none;
+    border-radius: 0;
+}
+
+/* Horizontal Tabs */
+.horizontal-tabs {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    
+    border-radius: 4px;
+}
+
+.horizontal-tabs lightning-tabset {
+    height: 100%;
+}
+
+.horizontal-tabs lightning-tab {
+    padding: 10px;
+}
+
+/* Content within Horizontal Tabs */
+.horizontal-tabs p {
+    margin: 0;
+}
+
+/* Active Tab */
+.horizontal-tabs lightning-tab.slds-is-active {
+    border: none;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.10);
+    border-radius: 4px;
+}
+
+/* Selected Tab Button */
+.vertical-tabs lightning-button.selected-tab {
+    background-color: #0070d2;
+    color: #fff;
+}
+
+/* Hover Effect on Tab Buttons */
+.vertical-tabs lightning-button:hover {
+    background-color: #0070d2;
+    color: #fff;
+}

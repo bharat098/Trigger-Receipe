@@ -1,0 +1,8 @@
+/* CSS in your LWC's CSS file */
+.chat-container {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: larger;
+}
